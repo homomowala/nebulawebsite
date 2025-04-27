@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #0f1a38, #4f91d7); /* Dark Blue to Light Blue Gradient */
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #4f91d7; /* Change text color to light blue on hover */
+}
+
+/* Section Styles */
+.section {
+  padding: 50px 0;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+
+p {
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+/* Hover effects for headings and paragraphs */
+h2:hover {
+  color: #4f91d7; /* Change heading color on hover */
+}
+
+p:hover {
+  color: #b0c9e4; /* Lighter text color for paragraph on hover */
+}
+
+/* Button Styles */
+.btn {
+  background-color: #4f91d7; /* Light Blue */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #2f78b1; /* Slightly darker blue on hover */
+  transform: scale(1.1); /* Slightly enlarge button */
+}
+
+/* Footer */
+footer {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer p {
+  transition: color 0.3s ease;
+}
+
+footer p:hover {
+  color: #4f91d7; /* Change footer text color on hover */
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
